@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#00C3EF</headerColor>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Quick Access to Key Parts of Copado</description>
+    <formFactors>Small</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Copado Console</label>
+    <navType>Console</navType>
+    <setupExperience>all</setupExperience>
+    <tabs>copado__Project__c</tabs>
+    <tabs>copado__Epic__c</tabs>
+    <tabs>copado__Sprint__c</tabs>
+    <tabs>copado__Connection_Behavior__c</tabs>
+    <tabs>copado__User_Story__c</tabs>
+    <tabs>copado__Promotion__c</tabs>
+    <tabs>copado__Environment__c</tabs>
+    <tabs>copado__Git_Repository__c</tabs>
+    <tabs>copado__Git_Backup__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>copado__Copado_Console_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>copado__Connection_Behavior__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Environment__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Epic__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Git_Backup__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Git_Repository__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Project__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Promotion__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Sprint__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__User_Story__c</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
